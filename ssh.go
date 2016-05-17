@@ -1,7 +1,7 @@
 package cloudstack
 
 import (
-	"github.com/golang/crypto/ssh"
+	"golang.org/x/crypto/ssh"
 	"fmt"
 	"github.com/mitchellh/multistep"
 	packerssh "github.com/mitchellh/packer/communicator/ssh"
